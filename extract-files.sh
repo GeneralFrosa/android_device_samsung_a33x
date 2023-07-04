@@ -14,7 +14,7 @@ fi
 
 set -e
 
-export DEVICE=a53x
+export DEVICE=a33x
 export DEVICE_COMMON=universal8825-common
 export VENDOR=samsung
 
