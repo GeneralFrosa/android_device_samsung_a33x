@@ -14,13 +14,13 @@
 # limitations under the License.
 #
 
-DEVICE_PATH := device/samsung/a53x
+DEVICE_PATH := device/samsung/a33x
 
 # Inherit from the common tree
 $(call inherit-product, device/samsung/universal8825-common/common.mk)
 
 # Inherit proprietary files
-$(call inherit-product, vendor/samsung/a53x/a53x-vendor.mk)
+$(call inherit-product, vendor/samsung/a33x/a33x-vendor.mk)
 
 # Overlays
 DEVICE_PACKAGE_OVERLAYS += $(DEVICE_PATH)/overlay
